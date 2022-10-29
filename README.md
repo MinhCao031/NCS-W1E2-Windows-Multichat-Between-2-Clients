@@ -13,11 +13,16 @@
 - How to run:
   + Run `demo_server.exe` to setup server, then `demo_client.exe` to setup clients
   + You can open as many client apps as you can, as long as the value in 5th line from `win_socket.c` is modified big enough
-  
+
   ```5. #define MAX_CLIENT 8 // <- Change it here```
   + Command for server:
+  
     `LIST`: List all clients and status of each
+    
   + Command for clients:
+  
     `LIST`: List all other active clients
+    
     `SEND <client_number> <message>`: Send message to another client
+    
     `QUIT`: Exit and go offline
